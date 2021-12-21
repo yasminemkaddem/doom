@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Sans:ital,wght@1,400;1,700&display=swap');
+
+
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: black;
+    background-color: rgb(231, 208, 229);
+}
+
+ul,li {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+}
+.promo {
+    background-color: rgb(8, 0, 1);
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0;
+
+}
+.container{
+    max-width: 114rem;
+margin: 0 auto;
+}
+@media only screen and (max-width : 1200px){
+    .container{
+        padding: 0 3rem;
+    }
+}
+.navigation{
+    height: 7rem;
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu .top{
+    display: none;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0rem 1.5rem;
+
+}
+         
+.logo span{
+    font-size: 3rem;
+    color: rgb(24, 73, 231);
+
+ }
+ .navitem :not(:last-child){
+     margin: 0.5rem;
+ }
+
+ .navitem:first-child .nav-link{
+     color: rgb(78, 213, 231);
+ }
+.nav-link{
+    padding: 0 1rem;
+   transition: all 300ms ease-in-out ;
+
+}
+.nav-link:hover{
+    color: cornflowerblue;    
+}
+.nav .icones div{
+ 
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+
+}
+.nav .icones div:not(:last-child){
+    margin-right: 0.5rem;
+
+}
+.nav .icones div:hover{
+    color: cornflowerblue;
+}
+.nav .icones div:last-child{
+    position: relative;
+}
+.nav .icones div span{
+    position: absolute;
+    top: -0.5rem;
+    right: -1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(3, 14, 77);
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+
+}
+.aligne-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width :768px){
+    .navigation{
+        padding: 1rem 0; 
+
+    }
+    .menu{
+       position: fixed; 
+       top: 0;
+       
+       left: -100%; */
+       background-color: cornsilk;
+       height: 100%;
+       width: 80%;
+       max-width: 45rem;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       transition: all ease-in-out;
+       z-index: 100;
+    }
+    .icone1{
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+
+
+    }
+    .icones{
+        display: none;
+
+    }
+    .logo span{
+        color: royalblue;
+
+    }
+    .logo a{
+        font-size: 1.6rem;
+        font-weight:400; 
+      }
+      .menu .top{
+          display: block;
+          position: relative;
+          background-color: rgb(144, 194, 241);
+          width: 100%;
+          height: 6rem;
+          color: white;
+
+      }
+      .top span {
+          display: flex ;
+          align-items: center ;
+          position: absolute ;
+          top: 50%;
+          transform: translate(-50%);
+          right: 1rem;
+          font-size: 2rem;
+          cursor: pointer;
+      }
+
+
+
+      .top span i {
+        font-size: 3rem;
+        }
+
+      .nav-list{
+          flex-direction: column;
+          align-items: start;
+          padding: 2rem 0;
+      }
+      .nav-item{
+          margin: 0 0 2rem 0;
+      }
+      .nav-link{
+          padding: 0.7rem;
+          
+      }
+
+    }
+  
+    .img-prdct{
+        width: 50px;
+        height: 50px;
+        background-color: #5161ce;
+        border-radius: 4px;
+    }
+    .img-prdct img{
+        width: 100%;
+    }
+    
+    thead tr{
+        background-color: #343A40;
+        color: white;
+    }
+    .img-prdct{
+        width:100px !important;
+        height:100px !important;
+    }
+    .cart-qty-plus{
+        background-color:#00a5e8;
+        color:white;
+        font-weight: 600;
+    }
+    .cart-qty-minus{
+        background-color:#00a5e8;
+        color:white;
+        font-weight: 600;
+    }
+
+    
+   
